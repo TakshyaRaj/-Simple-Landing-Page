@@ -1,75 +1,103 @@
-body{
+body {
   padding: 20px;
   margin: 10px;
-  background-image:url('bc.jpg');
-  height:10034px;
-  
+  background-image: url('bc.jpg');
+  height: 10034px;
+
 }
 
-.left{
-  border:6px solid yellow;
-  display: inline-block;
-  position: absolute;
-  left:5px;
+.left {
+  border: 6px solid yellow;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  /* left: 5px; */
   background-color: black;
   border-radius: 10px;
-  width:60%;
-  
-  
-  
+  width: 50%;
+  margin: auto 20px;
+
+
 }
-.right{
-  margin:7px;
+
+.class_ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+a {
+  padding: 5px;
+}
+
+.nav {
+  width: 120px;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.right {
+  margin: 7px;
   display: inline-block;
   position: relative;
-  right:30px;
+  right: 30px;
+  color: white;
   background-color: black;
-  border-radius:9px;
+  border-radius: 9px;
   top: 10px;
-  
+  width: 80px;
+  text-align: center;
+
 }
 
-#logo{height:30px;
-width: 30px;
+#logo {
+  height: 30px;
+  width: 30px;
 }
 
-.class_ul li{
+.class_ul li {
   text-decoration: none;
   display: inline-block;
   margin: 7px;
 }
 
 
-.class_ul li a{text-decoration: none;
-  color: white;
-  text-align: center;
+
+.nav_search {
+  margin: 5px 8px;
 }
 
-.nav_search{
-  margin:5px 8px;
+#search {
+  width: 80px;
 }
 
-#search{width:80px;}
-
-.div_h1{height:20px;
+.div_h1 {
+  height: 20px;
   background-image: linear-gradient(cyan, yellow);
   display: inline-block;
   width: 70%;
-  border-radius:15px;
-  margin:18px;
+  border-radius: 15px;
+  margin: 18px;
 }
 
-#div_form{
-    display: inline-block;
- background-image: linear-gradient(cyan, yellow);
-  border-radius:15px;
-  margin:18px;
-  width:70%;
+#div_form {
+  display: inline-block;
+  background-image: linear-gradient(cyan, yellow);
+  border-radius: 15px;
+  margin: 18px;
+  width: 70%;
 }
 
-#div_form input{
-  margin:7px;
-  border-radius:10px;
+#div_form input {
+  margin: 7px;
+  border-radius: 10px;
   border: 1px solid cyan;
   display: block;
 }
