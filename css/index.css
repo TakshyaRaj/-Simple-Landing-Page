@@ -1,15 +1,15 @@
 body{
-  padding: 0px;
-  margin: 0px;
+  padding: 20px;
+  margin: 10px;
   background-image:url('bc.jpg');
-  height:11134px;
+  height:10034px;
   
 }
 
 .left{
-  border:2px solid yellow;
+  border:6px solid yellow;
   display: inline-block;
-  position: relative;
+  position: absolute;
   left:5px;
   background-color: black;
   border-radius: 10px;
@@ -21,10 +21,10 @@ body{
 .right{
   margin:7px;
   display: inline-block;
-  position: fixed;
+  position: relative;
   right:30px;
   background-color: black;
-  border-radius:10px;
+  border-radius:9px;
   top: 10px;
   
 }
@@ -36,7 +36,7 @@ width: 30px;
 .class_ul li{
   text-decoration: none;
   display: inline-block;
-  margin: 8px;
+  margin: 7px;
 }
 
 
@@ -46,12 +46,12 @@ width: 30px;
 }
 
 .nav_search{
-  margin:5px 7px;
+  margin:5px 8px;
 }
 
 #search{width:80px;}
 
-.div_h1{height:70px;
+.div_h1{height:20px;
   background-image: linear-gradient(cyan, yellow);
   display: inline-block;
   width: 70%;
